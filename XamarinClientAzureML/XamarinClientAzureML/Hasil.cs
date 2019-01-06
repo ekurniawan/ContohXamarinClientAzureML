@@ -5,6 +5,7 @@ using System.Text;
 
 namespace XamarinClientAzureML
 {
+
     public class Hasil
     {
         public string Class { get; set; }
