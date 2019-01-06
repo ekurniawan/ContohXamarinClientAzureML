@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinClientAzureML"
+             x:Class="XamarinClientAzureML.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Sepal Length :" />
+        <Entry x:Name="entSepalLength" Keyboard="Numeric" />
+        <Label Text="Sepal Width :" />
+        <Entry x:Name="entSepalWidth" Keyboard="Numeric" />
+        <Label Text="Petal Length :" />
+        <Entry x:Name="entPetalLength" Keyboard="Numeric" />
+        <Label Text="Petal Width :" />
+        <Entry x:Name="entPetalWidth" Keyboard="Numeric" />
+        <Label Text="Scored Label :" />
+        <Entry x:Name="entScoredLabel" />
+        <Label Text="Scored Probabilities" />
+        <Entry x:Name="entScoredProb" />
+        <Button x:Name="btnSubmit" Text="Submit" />
+    </StackLayout>
+
+</ContentPage>
